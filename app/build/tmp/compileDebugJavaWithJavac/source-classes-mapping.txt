@@ -1,0 +1,2 @@
+com/test/trendingrepository/BuildConfig.java
+ com.test.trendingrepository.BuildConfig

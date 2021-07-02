@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_10ssp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/author_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:drawablePadding="@dimen/_5ssp"
+        android:text="Author"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="@dimen/_12ssp"
+        app:drawableLeftCompat="@drawable/ic_author_ic" />
+
+    <TextView
+        android:id="@+id/repo_name"
+        android:layout_width="match_parent"
+        android:layout_below="@id/author_name"
+        android:layout_marginVertical="@dimen/_2ssp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12ssp"
+        android:fontFamily="sans-serif-medium"
+        android:layout_height="wrap_content"
+        android:text="Repo name" />
+
+
+
+
+        <TextView
+            android:id="@+id/repo_description"
+            android:layout_width="match_parent"
+            android:layout_below="@id/repo_name"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="@dimen/_12ssp"
+            android:maxLines="3"
+            android:layout_height="wrap_content"
+            android:text="Repo detailed description" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/_5ssp"
+        android:weightSum="8"
+        android:layout_below="@id/repo_description"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/language_colour"
+            android:layout_width="@dimen/language_colour_size"
+            android:layout_height="@dimen/language_colour_size"
+            android:src="@color/teal_200"
+            android:layout_marginEnd="@dimen/_10ssp"
+            android:layout_marginRight="@dimen/_10ssp"
+           />
+
+
+        <TextView
+            android:id="@+id/language"
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_height="wrap_content"
+            android:text="Language" />
+
+
+        <TextView
+            android:id="@+id/stars_tv"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="no of stars"
+            android:drawablePadding="@dimen/_5ssp"
+            app:drawableLeftCompat="@drawable/ic_star" />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
