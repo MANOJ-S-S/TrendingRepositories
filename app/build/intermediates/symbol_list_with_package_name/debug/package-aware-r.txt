@@ -786,6 +786,7 @@ attr suffixText
 attr suffixTextAppearance
 attr suffixTextColor
 attr suggestionRowLayout
+attr swipeRefreshLayoutProgressSpinnerBackgroundColor
 attr switchMinWidth
 attr switchPadding
 attr switchStyle
@@ -1035,6 +1036,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color main
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -1152,6 +1154,7 @@ color test_mtrl_calendar_day
 color test_mtrl_calendar_day_selected
 color tooltip_background_dark
 color tooltip_background_light
+color transparent
 color white
 dimen _100ssp
 dimen _10ssp
@@ -1979,6 +1982,7 @@ id group_divider
 id grouping
 id groups
 id guideline
+id header_layout
 id header_title
 id hideable
 id home
@@ -2090,6 +2094,7 @@ id percent
 id pin
 id position
 id postLayout
+id progress_circle
 id progress_circular
 id progress_horizontal
 id radio
@@ -2098,6 +2103,7 @@ id rectangles
 id recycle
 id repo_description
 id repo_name
+id retry_layout
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2162,6 +2168,7 @@ id stop
 id stretch
 id submenuarrow
 id submit_area
+id swr_refresh
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -2209,6 +2216,7 @@ id transition_scene_layoutid_cache
 id transition_transform
 id trending_title
 id triangle
+id try_again_button
 id unchecked
 id uniform
 id unlabeled
@@ -3302,6 +3310,7 @@ styleable State android_id constraints
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable StateListDrawableItem android_drawable
 styleable StateSet defaultState
+styleable SwipeRefreshLayout swipeRefreshLayoutProgressSpinnerBackgroundColor
 styleable SwitchCompat android_textOn android_textOff android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode
 styleable SwitchMaterial useMaterialThemeColors
 styleable TabItem android_icon android_layout android_text

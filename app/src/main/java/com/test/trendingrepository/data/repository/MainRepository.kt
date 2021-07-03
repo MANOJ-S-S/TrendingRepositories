@@ -29,13 +29,17 @@ class MainRepository {
 
    fun getAllRepositories(viewModel: RepositoryListViewModel, context: Context) : Disposable {
 
+       viewModel.progressValue.value = true
+
        return RetrofitBuilder.getInstance(context, Utils.BASE_URL)
            .getRepositories()
            .observeOn(AndroidSchedulers.mainThread())
            .subscribeOn(Schedulers.io())
            .subscribe({
+               viewModel.progressValue.value = false
                viewModel.repositoryList.value = it
            }, {
+               viewModel.progressValue.value = false
                viewModel.errorResponse.value = it.message
            })
 

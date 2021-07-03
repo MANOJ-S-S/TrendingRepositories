@@ -24,6 +24,11 @@ class RepositoryListViewModel  : ViewModel() {
     val errorResponse :  MutableLiveData<String> by lazy {
         MutableLiveData<String>()
     }
+
+    val progressValue :  MutableLiveData<Boolean> by lazy {
+        MutableLiveData<Boolean>()
+    }
+
     private var compositeDisposable = CompositeDisposable()
 
     //This method returns the data as LiveData because the data from api should  be observed alone and  should not be edited
@@ -31,6 +36,11 @@ class RepositoryListViewModel  : ViewModel() {
     fun getRepositories(context: Context) : LiveData<List<RepositoryDataItem>> {
         compositeDisposable.add(mainRepository.getAllRepositories(this, context))
         return  repositoryList
+    }
+
+
+    fun getProgressValue () : LiveData<Boolean>{
+        return progressValue
     }
 
     override fun onCleared() {
@@ -51,7 +61,6 @@ class RepositoryListViewModel  : ViewModel() {
                 filteredList.add(item)
             }
         }
-
         return filteredList
     }
 

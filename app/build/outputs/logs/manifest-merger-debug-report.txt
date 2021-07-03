@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml:2:1-22:12
+ADDED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:2:1-23:12
 MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\667638000bd73dd079fd51b48aba4c9f\jetified-rxandroid-2.1.0\AndroidManifest.xml:15:1-20:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\7bbf85955aa2d4b103eb0f538bfc00ef\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\5379b1c81859c1dfec787f14a53e2e73\jetified-core-ktx-1.3.2\AndroidManifest.xml:2:1-9:12
@@ -19,6 +19,7 @@ MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Manoj\.gradle\cach
 MERGED from [com.intuit.ssp:ssp-android:1.0.6] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\d21b3f39b7a40e12c2c4b1c16bc75665\jetified-ssp-android-1.0.6\AndroidManifest.xml:2:1-11:12
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\e75b215d11fd2b613f7270e6de33e006\jetified-circleimageview-3.1.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\93e0d4ff43a58377ae122f5bc6bc8f4a\lifecycle-extensions-2.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\8f091aa880df2469e171751d9f89f980\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\e16b02509f50d05241ee00f9fd2c876d\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\291c08de615145c1d13bb76ec39d655c\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\61b8ae5378c56c187b537949700b1e48\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -43,37 +44,41 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Manoj\.gradle\
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\a6544b0f27ac45250b39dde889e94570\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\175ce3511533489085f2abd7815d296d\jetified-gifdecoder-4.11.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\d898976716a57b7063bd681e9ed3920b\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\75729a682235556b496cdfc9d64b9ca3\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\627ce2df1876676c30bc33db7eb2d55f\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\f03b1f9a45ed9f15c81add265f50b82c\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\de67d364d206f737f6add3c107c3ea49\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\75729a682235556b496cdfc9d64b9ca3\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\68cc02ce30b4da8450ff663c2e936f9d\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\16023fb186c9d376410b24d721cc7857\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\e4e47cddaae5e825c2350c80c329e359\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\64c010ebe6c44a1c25dd4a0d28c589c4\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:2:1-23:12
 	package
-		ADDED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml:3:5-42
-		INJECTED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml
-		INJECTED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml
+		ADDED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml
-		ADDED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml:2:1-22:12
-		INJECTED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml
+		ADDED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:2:1-23:12
+		INJECTED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml
-		ADDED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml:2:1-22:12
-		INJECTED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml
+		ADDED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:2:1-23:12
+		INJECTED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml:2:11-69
-uses-permission#android.permission.INTERNET
-ADDED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml:5:5-66
+		ADDED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:5:5-79
 	android:name
-		ADDED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml:6:5-20:19
+ADDED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:7:5-21:19
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\e28b546c31507a35db313aebd35ef43a\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\e28b546c31507a35db313aebd35ef43a\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\bb23249328a13d65c47eb3379f4950df\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -95,35 +100,35 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Ma
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.2] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\78b171fb121e51ea7ac9b1d541fbc699\core-1.3.2\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml:11:9-35
+		ADDED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml:10:9-54
+		ADDED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:11:9-54
 	android:icon
-		ADDED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml:8:9-43
+		ADDED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:9:9-43
 	android:allowBackup
-		ADDED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml:12:9-57
+		ADDED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:13:9-57
 activity#com.test.trendingrepository.ui.main.view.RepositoryListActivity
-ADDED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml:13:9-19:20
+ADDED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:14:9-20:20
 	android:name
-		ADDED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml:13:19-97
+		ADDED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:14:19-97
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml:14:13-18:29
+ADDED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml:15:17-69
+ADDED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml:15:25-66
+		ADDED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml:17:17-77
+ADDED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml:17:27-74
+		ADDED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:18:27-74
 uses-sdk
-INJECTED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml
-INJECTED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml
+INJECTED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml
+INJECTED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml
 MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\667638000bd73dd079fd51b48aba4c9f\jetified-rxandroid-2.1.0\AndroidManifest.xml:18:5-43
 MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\667638000bd73dd079fd51b48aba4c9f\jetified-rxandroid-2.1.0\AndroidManifest.xml:18:5-43
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\7bbf85955aa2d4b103eb0f538bfc00ef\multidex-2.0.0\AndroidManifest.xml:20:5-43
@@ -154,6 +159,8 @@ MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Manoj\.gradle\caches\t
 MERGED from [de.hdodenhof:circleimageview:3.1.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\e75b215d11fd2b613f7270e6de33e006\jetified-circleimageview-3.1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\93e0d4ff43a58377ae122f5bc6bc8f4a\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\93e0d4ff43a58377ae122f5bc6bc8f4a\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\8f091aa880df2469e171751d9f89f980\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\8f091aa880df2469e171751d9f89f980\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\e16b02509f50d05241ee00f9fd2c876d\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\e16b02509f50d05241ee00f9fd2c876d\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\291c08de615145c1d13bb76ec39d655c\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
@@ -202,14 +209,14 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\Manoj\.gradle
 MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\175ce3511533489085f2abd7815d296d\jetified-gifdecoder-4.11.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\d898976716a57b7063bd681e9ed3920b\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\d898976716a57b7063bd681e9ed3920b\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\75729a682235556b496cdfc9d64b9ca3\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\75729a682235556b496cdfc9d64b9ca3\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\627ce2df1876676c30bc33db7eb2d55f\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\627ce2df1876676c30bc33db7eb2d55f\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\f03b1f9a45ed9f15c81add265f50b82c\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\f03b1f9a45ed9f15c81add265f50b82c\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\de67d364d206f737f6add3c107c3ea49\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\de67d364d206f737f6add3c107c3ea49\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\75729a682235556b496cdfc9d64b9ca3\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\75729a682235556b496cdfc9d64b9ca3\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\68cc02ce30b4da8450ff663c2e936f9d\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\68cc02ce30b4da8450ff663c2e936f9d\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\16023fb186c9d376410b24d721cc7857\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
@@ -218,16 +225,16 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Manoj\.gradle\caches\transform
 MERGED from [androidx.print:print:1.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\e4e47cddaae5e825c2350c80c329e359\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\64c010ebe6c44a1c25dd4a0d28c589c4\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\64c010ebe6c44a1c25dd4a0d28c589c4\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
-INJECTED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml
-INJECTED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml
+INJECTED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml
+INJECTED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml
-		ADDED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml
-		INJECTED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml
+		ADDED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml
-		ADDED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml
-		INJECTED from D:\MyLearning projects\zoho\NewConceptsLearning\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml
+		ADDED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml
 provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\2b9a41654aa53db89bd26981e768f7be\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
 	android:authorities

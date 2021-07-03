@@ -50,6 +50,7 @@ class RepositoryAdapter(
     }
 
     fun addData(list: List<RepositoryDataItem>) {
+        repositories.clear()
         repositories.addAll(list)
     }
 

@@ -119,6 +119,7 @@ androidx/recyclerview/widget/RecyclerView$EdgeEffectFactory$EdgeDirection.class
 androidx/recyclerview/widget/RecyclerView$ItemAnimator$AdapterChanges.class
 androidx/recyclerview/widget/RecyclerView$Orientation.class
 androidx/recyclerview/widget/ViewBoundsCheck$ViewBounds.class
+androidx/swiperefreshlayout/widget/CircularProgressDrawable$ProgressDrawableSize.class
 androidx/transition/Slide$GravityFlag.class
 androidx/transition/Transition$MatchOrder.class
 androidx/transition/Visibility$Mode.class

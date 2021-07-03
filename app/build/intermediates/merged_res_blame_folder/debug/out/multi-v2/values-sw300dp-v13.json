@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\MyLearning projects\\zoho\\NewConceptsLearning\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw300dp-v13\\values-sw300dp-v13.xml",
+            "outputFile": "D:\\MyLearning projects\\zoho\\TrendingRepo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw300dp-v13\\values-sw300dp-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Manoj\\.gradle\\caches\\transforms-2\\files-2.1\\d21b3f39b7a40e12c2c4b1c16bc75665\\jetified-ssp-android-1.0.6\\res\\values-sw300dp-v13\\values-sw300dp-v13.xml",
