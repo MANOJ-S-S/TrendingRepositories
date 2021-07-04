@@ -9,11 +9,17 @@ This is a single screen application which lists the trending repositories from a
 Libraries used : 
 
 Material Design : - For androidx views / viewgroups.
+
 Glide : - To load image from mock server.
+
  Circle Image view: - To use circle image view for language colour imageview.
+ 
  Retrofit : - To make network calls.
+ 
  RXJava : - For reactive response. 
+ 
  Jetpack Components: - Room database for offline storage; Livedata to respect activity lifecycle.
+ 
  Swipe refresh : - To implement swipe refresh for network call.
  
  
