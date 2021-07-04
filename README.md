@@ -1,7 +1,7 @@
 # TrendingRepositories
 To fetch all trending repository
 
-Oveerview :
+Overview :
 This is a single screen application which lists the trending repositories from a public api. It is developed in Kotlin following MVVM design pattern. The application lets you to search a repository by its name, supports offline storage to store the fetched repository details.
 
 
