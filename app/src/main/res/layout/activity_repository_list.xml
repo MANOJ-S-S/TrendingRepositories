@@ -65,6 +65,7 @@
         android:layout_width="match_parent"
         android:layout_below="@+id/header_layout"
         android:visibility="invisible"
+        app:swipeRefreshLayoutProgressSpinnerBackgroundColor="@color/main"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/header_layout"
         app:layout_constraintEnd_toEndOf="parent"

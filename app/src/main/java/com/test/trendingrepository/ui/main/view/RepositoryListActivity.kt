@@ -1,9 +1,8 @@
 package com.test.trendingrepository.ui.main.view
 
+import android.graphics.Color
 import android.os.Bundle
 import android.view.View
-import android.widget.ImageView
-import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.appcompat.R.*
 import androidx.appcompat.app.AppCompatActivity
@@ -32,8 +31,7 @@ class RepositoryListActivity : AppCompatActivity(), View.OnClickListener, SwipeR
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_repository_list)
         setupUI()
-         viewModel = ViewModelProviders.of(this@RepositoryListActivity).get(RepositoryListViewModel::class.java)
-
+         viewModel = ViewModelProviders.of(this).get(RepositoryListViewModel::class.java)
 
         isNetworkAvailable = if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.M)
                              Utils.isNetworkAvailable(context = this)
@@ -78,11 +76,10 @@ class RepositoryListActivity : AppCompatActivity(), View.OnClickListener, SwipeR
         }
 
         else {
+
             showRetryLayout()
         }
     }
-
-
 
 
     private fun setupUI() {
@@ -90,6 +87,9 @@ class RepositoryListActivity : AppCompatActivity(), View.OnClickListener, SwipeR
         back_button.setOnClickListener(this)
         try_again_button.setOnClickListener(this)
         swr_refresh.setOnRefreshListener(this)
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.M) {
+            swr_refresh.setColorSchemeColors(resources.getColor(R.color.main,null))
+        }
 
 
         recycle.layoutManager = LinearLayoutManager(this)
@@ -137,7 +137,6 @@ class RepositoryListActivity : AppCompatActivity(), View.OnClickListener, SwipeR
 
     private fun showAllRepositories(repositories: List<RepositoryDataItem>) {
 
-
         allRepositoryList = repositories
         adapter.addData(allRepositoryList)
         adapter.notifyDataSetChanged()
@@ -175,12 +174,13 @@ class RepositoryListActivity : AppCompatActivity(), View.OnClickListener, SwipeR
 
     private fun doNetworkCall() {
         swr_refresh.isRefreshing = false
-        progress_circle.visibility = View.VISIBLE
+
         isNetworkAvailable = if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.M)
             Utils.isNetworkAvailable(context = this)
         else false
         if(isNetworkAvailable){
-
+            retry_layout.visibility = View.GONE
+            progress_circle.visibility = View.VISIBLE
             viewModel.getProgressValue().observe(this,
                     {
                         it?.let { response -> handleLoadingBar(response) }
@@ -197,7 +197,10 @@ class RepositoryListActivity : AppCompatActivity(), View.OnClickListener, SwipeR
                     }
             )
         }
-        else if(!isNetworkAvailable) Snackbar.make(try_again_button, "Please check your internet connection", Snackbar.LENGTH_LONG).show();
+        else if(!isNetworkAvailable) {
+            showRetryLayout()
+            Snackbar.make(try_again_button, "Please check your internet connection", Snackbar.LENGTH_LONG).show()
+        }
     }
 
     override fun onRefresh() {

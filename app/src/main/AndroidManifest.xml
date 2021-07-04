@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NewConceptsLearning">
-        <activity android:name="com.test.trendingrepository.ui.main.view.RepositoryListActivity">
+        <activity android:name="com.test.trendingrepository.ui.main.view.RepositoryListActivity"
+            android:configChanges="orientation|keyboard|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

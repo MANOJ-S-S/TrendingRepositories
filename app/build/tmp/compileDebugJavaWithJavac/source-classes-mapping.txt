@@ -1,2 +1,9 @@
+com/test/trendingrepository/data/offline/RepositoryDao_Impl.java
+ com.test.trendingrepository.data.offline.RepositoryDao_Impl
+ com.test.trendingrepository.data.offline.RepositoryDao_Impl$1
+ com.test.trendingrepository.data.offline.RepositoryDao_Impl$2
+com/test/trendingrepository/data/offline/AppDatabase_Impl.java
+ com.test.trendingrepository.data.offline.AppDatabase_Impl
+ com.test.trendingrepository.data.offline.AppDatabase_Impl$1
 com/test/trendingrepository/BuildConfig.java
  com.test.trendingrepository.BuildConfig

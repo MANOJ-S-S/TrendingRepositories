@@ -18,7 +18,7 @@
 12-->D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:6:22-64
 13
 14    <application
-14-->D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:7:5-21:19
+14-->D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:7:5-22:19
 15        android:name="androidx.multidex.MultiDexApplication"
 16        android:allowBackup="true"
 16-->D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:8:9-35
@@ -33,33 +33,46 @@
 21-->D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:11:9-54
 22        android:supportsRtl="true"
 22-->D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:12:9-35
-23        android:theme="@style/Theme.NewConceptsLearning" >
-23-->D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:13:9-57
-24        <activity android:name="com.test.trendingrepository.ui.main.view.RepositoryListActivity" >
-24-->D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:14:9-20:20
-24-->D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:14:19-97
-25            <intent-filter>
-25-->D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:15:13-19:29
-26                <action android:name="android.intent.action.MAIN" />
-26-->D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:16:17-69
-26-->D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:16:25-66
-27
-28                <category android:name="android.intent.category.LAUNCHER" />
-28-->D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:18:17-77
-28-->D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:18:27-74
-29            </intent-filter>
-30        </activity>
-31
-32        <provider
-32-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\2b9a41654aa53db89bd26981e768f7be\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
-33            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-33-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\2b9a41654aa53db89bd26981e768f7be\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
-34            android:authorities="com.test.trendingrepository.lifecycle-process"
-34-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\2b9a41654aa53db89bd26981e768f7be\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
-35            android:exported="false"
-35-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\2b9a41654aa53db89bd26981e768f7be\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
-36            android:multiprocess="true" />
-36-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\2b9a41654aa53db89bd26981e768f7be\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
-37    </application>
-38
-39</manifest>
+23        android:testOnly="true"
+24        android:theme="@style/Theme.NewConceptsLearning" >
+24-->D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:13:9-57
+25        <activity
+25-->D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:14:9-21:20
+26            android:name="com.test.trendingrepository.ui.main.view.RepositoryListActivity"
+26-->D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:14:19-97
+27            android:configChanges="orientation|keyboard|screenSize" >
+27-->D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:15:13-68
+28            <intent-filter>
+28-->D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:16:13-20:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:17:17-69
+29-->D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:17:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:19:17-77
+31-->D:\MyLearning projects\zoho\TrendingRepo\app\src\main\AndroidManifest.xml:19:27-74
+32            </intent-filter>
+33        </activity>
+34
+35        <provider
+35-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\2b9a41654aa53db89bd26981e768f7be\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+36            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+36-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\2b9a41654aa53db89bd26981e768f7be\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+37            android:authorities="com.test.trendingrepository.lifecycle-process"
+37-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\2b9a41654aa53db89bd26981e768f7be\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+38            android:exported="false"
+38-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\2b9a41654aa53db89bd26981e768f7be\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+39            android:multiprocess="true" />
+39-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\2b9a41654aa53db89bd26981e768f7be\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+40
+41        <service
+41-->[androidx.room:room-runtime:2.3.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\cabae4b0d6a5b17b07b2d0d81d815613\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+42            android:name="androidx.room.MultiInstanceInvalidationService"
+42-->[androidx.room:room-runtime:2.3.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\cabae4b0d6a5b17b07b2d0d81d815613\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+43            android:directBootAware="true"
+43-->[androidx.room:room-runtime:2.3.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\cabae4b0d6a5b17b07b2d0d81d815613\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+44            android:exported="false" />
+44-->[androidx.room:room-runtime:2.3.0] C:\Users\Manoj\.gradle\caches\transforms-2\files-2.1\cabae4b0d6a5b17b07b2d0d81d815613\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+45    </application>
+46
+47</manifest>

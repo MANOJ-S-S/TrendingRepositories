@@ -16,12 +16,12 @@
         "source": "D:\\MyLearning projects\\zoho\\TrendingRepo\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
     },
     {
-        "merged": "D:\\MyLearning projects\\zoho\\TrendingRepo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_star.png.flat",
-        "source": "D:\\MyLearning projects\\zoho\\TrendingRepo\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_star.png"
-    },
-    {
         "merged": "D:\\MyLearning projects\\zoho\\TrendingRepo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
         "source": "D:\\MyLearning projects\\zoho\\TrendingRepo\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\MyLearning projects\\zoho\\TrendingRepo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_star.png.flat",
+        "source": "D:\\MyLearning projects\\zoho\\TrendingRepo\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_star.png"
     },
     {
         "merged": "D:\\MyLearning projects\\zoho\\TrendingRepo\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_arrow_back.png.flat",
