@@ -30,7 +30,7 @@
                 android:textStyle="bold"
                 android:textColor="@color/black"
                 android:layout_centerVertical="true"
-                android:text="Trending Repositories"
+                android:text="@string/trending_repositories"
                 android:textSize="@dimen/_15ssp"
           />
 
@@ -56,7 +56,7 @@
                 app:defaultQueryHint="Search Repository Name"
                 app:searchHintIcon="@null"
                 android:layout_alignParentTop="true"
-                />
+                android:layout_toEndOf="@id/back_button" />
         </RelativeLayout>
 
     </RelativeLayout>
@@ -119,17 +119,18 @@
            android:textSize="@dimen/_16ssp"
            android:textStyle="bold"
            android:textColor="@color/black"
-           android:text="No network connection"/>
+           android:text="@string/no_network_connection"/>
 
         <Button
             android:id="@+id/try_again_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TRY AGAIN"
+            android:text="@string/try_again"
             android:layout_marginTop="@dimen/_5ssp"
             android:textColor="@color/main"
             android:backgroundTint="@color/white"
-            android:layout_gravity="center"/>
+            android:layout_gravity="center"
+            tools:ignore="UnusedAttribute" />
 
    </LinearLayout>
 

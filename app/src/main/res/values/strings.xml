@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TrendingRepository</string>
+    <string name="stored_offline">Fetched data stored successfully in offline database</string>
+    <string name="trending_repositories">Trending Repositories</string>
+    <string name="try_again">TRY AGAIN</string>
+    <string name="no_network_connection">No network connection</string>
 </resources>

@@ -4,6 +4,7 @@ import android.content.Context
 import android.util.Log
 import android.widget.Toast
 import androidx.room.Room
+import com.test.trendingrepository.R
 import com.test.trendingrepository.data.api.RetrofitBuilder
 import com.test.trendingrepository.data.model.OfflineRepositoryDataItem
 import com.test.trendingrepository.data.model.RepositoryDataItem
@@ -73,7 +74,7 @@ class MainRepository {
             }
         }.start()
 
-        Toast.makeText(context, "Fetched data stored successfully in offline database",Toast.LENGTH_SHORT).show()
+        Toast.makeText(context, context.getString(R.string.stored_offline),Toast.LENGTH_SHORT).show()
     }
 
 
